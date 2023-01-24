@@ -1,0 +1,47 @@
+
+body{
+    background: radial-gradient(circle,white, black);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.dib{
+    display: inline-block;
+  
+}
+.dib li{
+    display: inline-block;
+   margin-left: 15px;
+   
+   
+}
+.dib ul{
+    width: 300px;
+    position: relative;
+
+    top: -100px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: red;
+}
+.xd{
+    
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+}
+.nave{
+    background-color: black;
+}
+#Search{
+    position:relative;
+    right: -400px;
+    top:-100px;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+input::placeholder { color: rgb(128, 53, 53); }
